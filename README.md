@@ -5,4 +5,5 @@
 
 ### Verkefni 1
 [Gögn](/verk1/)
-[Netlify]()
+
+[Netlify](nussari.netlify.app)
