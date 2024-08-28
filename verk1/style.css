@@ -1,0 +1,57 @@
+body {
+	max-width: 60em;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.button {
+    border-radius: .2rem;
+    border: 1px black solid;
+    padding: .8rem;
+    margin: 0 auto;
+    max-width: 5rem;
+    background-color: lightgray;
+    color: black;
+}
+
+.contact {
+    border-radius: .5rem;
+    border: 1px black solid;
+    padding: .8rem;
+    margin: 0 auto;
+    background-color: lightgray;
+    color: black;
+    max-width: 30rem;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 1rem;
+}
+
+.contact_info {
+    margin: auto 0;
+}
+
+.selfie {
+    max-width: 10rem;
+    border-radius: 1rem;
+}
+
+.name {
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
