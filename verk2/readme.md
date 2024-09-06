@@ -1,5 +1,3 @@
 # Verkefni 2
 
-# WIP
-
-pls gemmér smá tíma
+kláraði kl 1:18 6. sept pls leyfðu því að slidea
