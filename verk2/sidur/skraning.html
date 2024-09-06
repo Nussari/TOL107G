@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="is">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spilabúðin</title>
 
-    <meta property="og:title" content="Skráning á viðburði">
-    <meta property="og:description" content="Spilabúðin">
-    <meta property="og:image" content="myndir/sharing.jpg">
-</head>
-<body>
+    <meta property="og:title" content="Skráning á viðburði" />
+    <meta property="og:description" content="Spilabúðin" />
+    <meta property="og:image" content="myndir/sharing.jpg" />
+  </head>
+  <body>
     <header>
       <h1>Skráning á viðburði</h1>
       <a href="#efni">Beint í efni</a>
@@ -32,6 +32,48 @@
     </header>
 
     <main id="efni">
+      Skráðu þig á viðburði hjá okkur!
+
+      <h3>Viðburður</h3>
+
+      <form action="/skraning" method="post">
+        <label for="vidburdur">Hvaða viðburð viltu koma á?</label>
+        <select id="vidburdur" name="vidburdur">
+          <option value="puslukvold">Púslukvöld</option>
+          <option value="ticket">Ticket to ride</option>
+        </select>
+
+        <label for="magn">Hve mörg?</label>
+        <input id="magn" type="number" name="magn" min="1" max="10" />
+
+        <label for="taka_fram">Viltu taka eitthvað fram?</label>
+        <input id="taka_fram" type="text" />
+
+        <h3>Panta mat</h3>
+        <label for="mat">Viltu panta mat?</label>
+        <select id="mat" name="mat">
+          <option value="pizza">Pizzusneið og gos</option>
+          <option value="kaffi">Kaffi og kaka</option>
+          <option value="ekkert">Engan mat</option>
+        </select>
+        <label for="ofnaemi">Ertu með ofnæmi?</label>
+        <input name="ofnaemi" type="checkbox" />
+        <label for="annad">Annað sem við eigum að vita?</label>
+        <input id="annad" type="text" />
+
+        <h3>Þínar upplýsingar</h3>
+        <label for="nafn" required>Nafn</label>
+        <input id="nafn" type="text" required />
+        <label for="netfang">Netfang</label>
+        <input id="netfang" type="email" placeholder="jon@hi.is" required />
+        <label for="simanr">Símanúmer</label>
+        <input id="simanr" type="tel" placeholder="581-2345" required />
+        <h3>Samþykkja og panta</h3>
+        <label for="sam">Ég samþykki skilmála Spilabúðarinnar</label>
+        <input name="sam" id="sam" type="checkbox" />
+        <button>Panta</button>
+      </form>
+
       <a href="../index.html">Aftur á forsíðu</a>
     </main>
     <footer>
