@@ -12,3 +12,9 @@
 [Gögn](/verk2/)
 
 [Netlify](https://nussari.netlify.app/verk2)
+
+### Verkefni 3
+
+[Gögn](/verk3/)
+
+[Netlify]()
