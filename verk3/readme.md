@@ -1,3 +1,3 @@
 # Verkefni 3
 
-WIP
+WIP pls gemmer tima
