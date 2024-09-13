@@ -37,21 +37,21 @@ html {
 
 /*** Leturgerðir sem við sækjum úr fonts/ möppu ***/
 @font-face {
-  font-family: 'Matemasie';
-  src: url(fonts/Matemasie-Regular.ttf) format('truetype');
+  font-family: "Matemasie";
+  src: url(fonts/Matemasie-Regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
-  src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(fonts/OpenSans-VariableFont_wdth\wght.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: bold;
   font-weight: 700;
-  src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(fonts/OpenSans-VariableFont_wdth\wght.ttf) format("truetype");
 }
 
 /*** Allt meginmál notar open sans ***/
@@ -59,7 +59,7 @@ html,
 input,
 select,
 button {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 /*** Allar fyrirsagnir nota Matemasie regular ***/
@@ -67,7 +67,7 @@ h1,
 h2,
 h3,
 legend {
-  font-family: 'Matemasie';
+  font-family: "Matemasie";
 }
 
 /** Lætur myndir aldrei taka meira pláss en foreldri skilgreinir **/
@@ -97,7 +97,6 @@ a {
   min-height: 100vh;
 
   background-color: #f3dd99;
-
 }
 
 .wrapper main {
@@ -128,7 +127,7 @@ nav {
   padding: 1rem 0;
 }
 
-nav ul{
+nav ul {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
@@ -136,7 +135,7 @@ nav ul{
   justify-content: space-evenly;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
 }
 
@@ -171,9 +170,8 @@ button {
   background-color: #eebbdd;
 }
 
-
 /** Fótur **/
-.footer_container{
+.footer_container {
   background-color: #eebbdd;
   border-top: 4px solid #cc99bb;
 }
@@ -187,7 +185,6 @@ footer {
   padding: 1rem 0;
 }
 
-
 /* Ef við notum section fyrir hvert svæði undir fót, þá er hægt að nota eftirfarandi */
 footer > section {
   display: inline-block;
@@ -196,10 +193,10 @@ footer > section {
   /* TODO fleiri skilgreiningar */
 }
 
-
-dt, .footer_ul li {
+dt,
+.footer_ul li {
   font-weight: bold;
-  padding-top: .25rem;
+  padding-top: 0.25rem;
 }
 
 footer section h2 {
@@ -213,18 +210,6 @@ li {
 /* TODO Skilgreina aðra selectora fyrir fót */
 
 /** Spilasíða, töflustílar **/
-
-table {
-  /* TODO Skilgreina */
-}
-
-/* TODO Skilgreina aðra selectora fyrir töflu */
-
-/** Viðburðir **/
-
-.event {
-  /* TODO Skilgreina, gerum ráð fyrir að hver viðburður hafi eigin selector */
-}
 
 /* TODO Skilgreina aðra selectora fyrir viðburði */
 
