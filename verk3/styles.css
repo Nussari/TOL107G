@@ -154,6 +154,24 @@ main {
   display: flex;
 }
 
+label {
+  display: block;
+  padding: 1rem 0;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  padding-top: 1rem;
+}
+
+button {
+  background-color: #eebbdd;
+}
+
+
 /** Fótur **/
 .footer_container{
   background-color: #eebbdd;
