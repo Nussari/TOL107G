@@ -24,3 +24,9 @@
 [Gögn](/verk5/)
 
 [Netlify]()
+
+### Verkefni 5
+
+[Gögn](/verk6/)
+
+[Netlify]()
