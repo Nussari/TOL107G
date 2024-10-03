@@ -25,7 +25,7 @@
 
 [Netlify]()
 
-### Verkefni 5
+### Verkefni 6
 
 [Gögn](/verk6/)
 
