@@ -29,4 +29,4 @@
 
 [Gögn](/verk6/)
 
-[Netlify]()
+[Netlify](https://verk6.netlify.app)
